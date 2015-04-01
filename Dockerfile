@@ -13,7 +13,7 @@ RUN \
   git clone -b dizzy git://git.yoctoproject.org/poky.git
  
 # Expose ports.
-EXPOSE 8181
+EXPOSE 8000
  
 # Start toaster
 CMD ["source poky/oe-init-build-env"]
