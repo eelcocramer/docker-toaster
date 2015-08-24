@@ -3,7 +3,7 @@
 #
  
 # Pull base image.
-FROM dockerfile/python
+FROM FROM python:3-onbuild
  
 # Install Toaster.
 RUN \
