@@ -3,7 +3,7 @@
 #
  
 # Pull base image.
-FROM FROM python:3
+FROM python:3
  
 # Install Toaster.
 RUN \
